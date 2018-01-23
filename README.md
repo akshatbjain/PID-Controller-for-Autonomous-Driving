@@ -17,6 +17,8 @@ In short,
 * 'I' helps steer the vehicle in proportion to the total accumulated error from the start time.
 * 'D' helps steer the vehicle in proportion to the difference in error from the previous time step.
 
+## Results
+
 After a lot of experimentation, my final values for PID were:
 * Steering PID: 0.2, 0.004, 2.5
 * Throttle PID: 0.15, 0.0075, 9.5
